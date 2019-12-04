@@ -3,7 +3,8 @@
     box-sizing: border-box;
     margin: 0;
 }
-ul{
+ul
+{
     padding: 0;
 }
 body
@@ -118,6 +119,7 @@ section
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .article > div
 {

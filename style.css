@@ -36,7 +36,7 @@ section
 {
     padding: 80px 0;
 }
-.header
+#header
 {
     background-image: url('banner.png');
     height: 800px;
@@ -108,7 +108,7 @@ section
     justify-content: center;
     align-items: center;
 }
-.services
+#services
 {
     color: #fff;
     background-color: #4bcaff;
@@ -137,7 +137,7 @@ section
     content: '';
     width: 45px;
     height: 2px;
-    top: 31px;
+    top: 37px;
     left: 0;
     background-color: #FFF;
 
@@ -175,7 +175,7 @@ section
     content: '';
     width: 45px;
     height: 2px;
-    top: 31px;
+    top: 37px;
     left: 0;
     background-color: #333333;
 }
@@ -236,7 +236,7 @@ section
 
 
 
-.just-default
+#just-default
 {
     color: #fff;
     background-color: #515F67;
@@ -285,7 +285,7 @@ section
     content: '';
     width: 45px;
     height: 2px;
-    top: 31px;
+    top: 37px;
     left: 0;
     background-color: #FFF;
 }
@@ -418,18 +418,20 @@ section
     content: '';
     width: 45px;
     height: 2px;
-    top: 31px;
+    top: 37px;
     left: 0;
     background-color: #333333;
 }
 
-.contact
+#contact
 {
     color: #FFF;
     background: url('bg-contact.png');
     background-repeat: no-repeat;
     background-size: 134%;
     background-position: center;
+    background-attachment: fixed;
+    margin: 0;
 }
 .container-contact
 {
@@ -509,10 +511,6 @@ section
     cursor: pointer;
 }
 
-
-
-
-
 .footer
 {
     color: rgb(81,95,103);
@@ -544,7 +542,6 @@ section
     text-decoration: none;
     padding: 8px 11px;
     transition: all .3s;
- 
 }
 
 .nav-link-footer:hover
@@ -563,9 +560,6 @@ section
 {
     padding-left: 0;
 }
-
-
-
 .text1
 {
     column-count: 2;  
@@ -573,4 +567,12 @@ section
 h2
 {
     font-weight: lighter;
+}
+input:focus
+{
+    border: green solid 2px;
+}
+input:focus:invalid
+{
+    border: red solid 2px;
 }

@@ -6,33 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Blueasy</title>
 </head>
 
 <body>
 
-    <header id="header">
+    <header class="d-flex flex-column justify-content-between">
 
-        <div class="container-large">
+        <div class="container-fluid bg-header">
 
-            <nav class="navbar">
+            <div class="container pt-5 pb-5">
 
-                <img class="logo" src="logo.png" alt="logo" width="140" height="35">
+                <div class="row justify-content-center justify-content-sm-between">
 
-                <ul class="nav">
+                    <img class="logo" src="logo.png" alt="logo" width="140" height="35">
 
-                    <li class="nav-items"><a class="nav-link" href="#header">HOME</a></li>
-                    <li class="nav-items"><a class="nav-link" href="#services">SERVICES</a></li>
-                    <li class="nav-items"><a class="nav-link" href="#just-default">FEATURES</a></li>
-                    <li class="nav-items"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-                    <li class="nav-items"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <ul class="nav d-none d-sm-flex">
 
-                </ul>
+                        <li class="nav-items"><a class="nav-link" href="#header">HOME</a></li>
+                        <li class="nav-items"><a class="nav-link" href="#services">SERVICES</a></li>
+                        <li class="nav-items"><a class="nav-link" href="#just-default">FEATURES</a></li>
+                        <li class="nav-items"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                        <li class="nav-items"><a class="nav-link" href="#contact">CONTACT</a></li>
 
-            </nav>
+                    </ul>
+                </div>
+
+            </div>
         </div>
 
-        <div class="container ftop">
+        <div class="container flex-grow-1 d-flex justify-content-center align-items-center">
 
             <div class="row fcolumn">
 
@@ -49,57 +54,54 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="col-12 padding-services row services-title">
 
-                <div class="services-title">
-
-                    <h2 class="border">SERVICES</h2>
-
-                </div>
-
-                <div class="article">
-
-                    <div class="coffee cart">
-
-                        <img class="img" src="coffee.png" alt="coffee">
-                        <h2>COFFEE</h2>
-                        <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
-                            Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-
-
-                    </div>
-
-                    <div class="instant cart">
-
-                        <img class="img" src="instant.png" alt="instant">
-                        <h2>INSTANT</h2>
-                        <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
-                            Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-
-                    </div>
-
-                    <div class="serious cart">
-
-                        <img class="img" src="serious.png" alt="serious">
-                        <h2>SERIOUS</h2>
-                        <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
-                            Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-
-                    </div>
-
-                    <div class="frame cart">
-
-                        <img class="img" src="frame.png" alt="frame">
-                        <h2>FRAME</h2>
-                        <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
-                            Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-
-                    </div>
-
-                </div>
-
+                <h2 class="border-services">SERVICES</h2>
 
             </div>
+
+
+            <div class="row flex-row justify-content-between align-items-center">
+
+                <div class="padding-services d-flex flex-column justify-content-center col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 cart text-center text-sm-center text-md-left">
+
+                    <img class="img" src="coffee.png" alt="coffee">
+                    <h2>COFFEE</h2>
+                    <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
+                        Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+
+
+                </div>
+
+                <div class="padding-services d-flex flex-column justify-content-center col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 cart text-center text-sm-center text-md-left">
+
+                    <img class="img" src="instant.png" alt="instant">
+                    <h2>INSTANT</h2>
+                    <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
+                        Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+
+                </div>
+
+                <div class="padding-services d-flex flex-column justify-content-center col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 cart text-center text-sm-center text-md-left">
+
+                    <img class="img" src="serious.png" alt="serious">
+                    <h2>SERIOUS</h2>
+                    <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
+                        Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+
+                </div>
+
+                <div class="padding-services d-flex flex-column justify-content-center col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 cart text-center text-sm-center text-md-left">
+
+                    <img class="img" src="frame.png" alt="frame">
+                    <h2>FRAME</h2>
+                    <p>Apple big icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw.
+                        Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+
+                </div>
+
+            </div>
+
 
         </div>
 
@@ -110,72 +112,65 @@
 
     </section>
 
-    <section id="portfolio">
+    <section>
 
-        <div class="container">
+        <div class="container pb-portfolio">
 
-            <div class="row">
+            <div class="padding-portfolio row justify-content-between">
 
-                <nav class="portfolio-nav">
+                <h2 class="border-portfolio">PORTFOLIO</h2>
 
+                <ul class="justify-content-between nav-portfolio d-none d-sm-flex">
 
-                    <h2 class="border-portfolio">PORTFOLIO</h2>
+                    <li class="nav-items"><a class="nav-link portfolio-link" href="#">ALL</a></li>
+                    <li class="nav-items"><a class="nav-link portfolio-link" href="#">PANORAMAS</a></li>
+                    <li class="nav-items"><a class="nav-link portfolio-link" href="#">PORTRAITS</a></li>
+                    <li class="nav-items"><a class="nav-link portfolio-link" href="#">MACRO</a></li>
+                    <li class="nav-items"><a class="nav-link portfolio-link" href="#">JOURNAL</a></li>
 
-                    <ul class="nav-portfolio">
-
-                        <li class="nav-items"><a class="nav-link portfolio-link" href="#">ALL</a></li>
-                        <li class="nav-items"><a class="nav-link portfolio-link" href="#">PANORAMAS</a></li>
-                        <li class="nav-items"><a class="nav-link portfolio-link" href="#">PORTRAITS</a></li>
-                        <li class="nav-items"><a class="nav-link portfolio-link" href="#">MACRO</a></li>
-                        <li class="nav-items"><a class="nav-link portfolio-link" href="#">JOURNAL</a></li>
-
-                    </ul>
-                </nav>
-
-                <div class="container-portfolio">
-
-                    <div class="column-portfolio">
-
-                        <img class="img-portfolio plus" src="portfolio1.png" alt="portfolio1" width="270" height="270">
-                        <img class="img-portfolio plus" src="portfolio2.png" alt="portfolio2" width="270" height="270">
-                        <img class="img-portfolio plus" src="portfolio3.png" alt="portfolio3" width="270" height="270">
-                        <img class="img-portfolio plus" src="portfolio4.png" alt="portfolio4" width="270" height="270">
-/
-                        <img class="img-portfolio plus" src="portfolio5.png" alt="portfolio5" width="270" height="270">
-                        <img class="img-portfolio plus" src="portfolio6.png" alt="portfolio6" width="270" height="270">
-                        <img class="img-portfolio plus" src="portfolio7.png" alt="portfolio7" width="270" height="270">
-                        <img class="img-portfolio plus" src="portfolio8.png" alt="portfolio1" width="270" height="270">
+                </ul>
+            </div>
+        </div>
 
 
-                    </div>
 
-                    <div class="overlay">
+        <div class="container position-relative d-flex flex-column justify-content-center">
 
-                        <div class="img-overlay">+</div>
-                        <div class="img-overlay">+</div>
-                        <div class="img-overlay">+</div>
-                        <div class="img-overlay">+</div>
-                        <div class="img-overlay">+</div>
-                        <div class="img-overlay">+</div>
-                        <div class="img-overlay">+</div>
-                        <div class="img-overlay">+</div>
+            <div class="row justify-content-center align-items-center">
+
+                <img class="img-portfolio plus" src="portfolio1.png" alt="portfolio1" width="270" height="270">
+                <img class="img-portfolio plus" src="portfolio2.png" alt="portfolio2" width="270" height="270">
+                <img class="img-portfolio plus" src="portfolio3.png" alt="portfolio3" width="270" height="270">
+                <img class="img-portfolio plus d-none d-sm-block" src="portfolio4.png" alt="portfolio4" width="270"
+                    height="270">
+                <img class="img-portfolio plus d-none d-sm-block" src="portfolio5.png" alt="portfolio5" width="270"
+                    height="270">
+                <img class="img-portfolio plus d-none d-sm-block" src="portfolio6.png" alt="portfolio6" width="270"
+                    height="270">
+                <img class="img-portfolio plus d-none d-sm-block" src="portfolio7.png" alt="portfolio7" width="270"
+                    height="270">
+                <img class="img-portfolio plus d-none d-sm-block" src="portfolio8.png" alt="portfolio1" width="270"
+                    height="270">
 
 
-                    </div>
+            </div>
 
+            <div class="overlay">
 
-                </div>
-
+                <div class="img-overlay">+</div>
+                <div class="img-overlay">+</div>
+                <div class="img-overlay">+</div>
+                <div class="img-overlay d-none d-sm-block">+</div>
+                <div class="img-overlay d-none d-sm-block">+</div>
+                <div class="img-overlay d-none d-sm-block">+</div>
+                <div class="img-overlay d-none d-sm-block">+</div>
+                <div class="img-overlay d-none d-sm-block">+</div>
 
 
             </div>
 
 
         </div>
-
-
-
-
 
     </section>
 
@@ -185,32 +180,32 @@
 
             <div class="row">
 
-                <div class="container-just-default">
+                <div
+                    class="padding-services col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex flex-column justify-content-center align-items-start">
 
-                    <div class="just-default-section">
+                    <h2 class="border-default-section">JUST DEFAULT SECTION</h2>
 
-                        <h2 class="border-default-section">JUST DEFAULT SECTION</h2>
+                    <p class="space-default-section1">Bear claw marzipan bear claw applicake I love muffin. Lemon
+                        drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy
+                        dessert candy ice cream wafer gummies cheesecake brownie.</p>
+                    <br />
+                    <p class="space-default-section2">Muffin chupa chups jelly beans sweet pie applicake. Croissant
+                        chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow.
+                        Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
 
-                        <p class="space-default-section1">Bear claw marzipan bear claw applicake I love muffin. Lemon
-                            drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy
-                            dessert candy ice cream wafer gummies cheesecake brownie.</p>
-                        <br />
-                        <p class="space-default-section2">Muffin chupa chups jelly beans sweet pie applicake. Croissant
-                            chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow.
-                            Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
+                    <a class="border-visit space-default-section3" href="#">VISIT ME</a>
 
-                        <a class="border-visit space-default-section3" href="#">VISIT ME</a>
+                </div>
 
-                    </div>
+                <div
+                    class="padding-services pt-5 pt-sm-5 pt-md-5 pt-lg-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
 
-                    <div class="video-just-default">
-
-                        <iframe width="561" height="313" src="https://www.youtube.com/embed/d5-0OVmNzs8" 
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
+                    <iframe class="w-100 height-video" src="https://www.youtube.com/embed/d5-0OVmNzs8"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
+        </div>
 
 
         </div>
@@ -220,33 +215,24 @@
 
         <div class="container">
 
+            <div class="padding-portfolio row justify-content-between">
+
+                <h2 class="border-default-section">TWITTER</h2>
+
+                <img class="img-twitter" src="twitter.png" alt="twitter">
+            </div>
+
             <div class="row">
 
-                <div class="container-twitter">
+                <div class="padding-portfolio text-twitter">
 
-                    <div class="title-twitter">
-
-                        <h2 class="border-default-section">TWITTER</h2>
-
-                        <img class="img-twitter" src="twitter.png" alt="twitter">
-
-                    </div>
-
-                    <div class="text-twitter">
-
-                        <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake
-                            <br /> <span class="cheescake">@cheesecake</span> tootsie roll.</p>
-
-                    </div>
-
-
-
+                    <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake
+                        <br /> <span class="cheescake">@cheesecake</span> tootsie roll.</p>
 
                 </div>
 
-
-
             </div>
+
 
         </div>
 
@@ -256,113 +242,80 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="row padding-portfolio">
 
-                <div class="container-john">
-
-                    <div class="title-john">
-
-                        <h2 class="border-default-section">WHO IS JOHN DOE?</h2>
-
-                        <div class="part1">
-
-                            <p class="text1">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi
-                                bears pastry
-                                gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy ice cream wafer
-                                gummies cheescake brownie.
-
-                                Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps
-                                sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake
-                                toffe pie bear claw pastry.</p>
-
-                        </div>
-
-                        <div class="part2">
-
-                            <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love<br />
-                                pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake <br />marzipan
-                                oat cake bonbon I love candy canes toffee.</p>
-
-                            <div class="icon-bar">
-
-                                <div class="icon-items">
-                                    <img src="twitter.png" alt="twitter">
-                                </div>
-
-                                <div class="icon-items">
-                                    <img src="googleplus.png" alt="googleplus">
-                                </div>
-
-                                <div class="icon-items">
-                                    <img src="dribble.png" alt="dribble">
-                                </div>
-
-                                <div class="icon-items">
-                                    <img src="coffee-icon.png" alt="coffee-icon">
-                                </div>
-
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-
-
-
+                <h2 class="border-default-section">WHO IS JOHN DOE?</h2>
             </div>
 
+            <div
+                class="row flex-wrap flex-sm-wrap flex-md-nowrap justify-content-between align-items-center margin-john">
+
+                <p class="padding-services col-12 col-sm-12 col-md-6 mb-5 mb-sm-5 mb-md-0 mr-0 mr-sm-0 mr-md-3">Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Neque, vel quod placeat, hic
+                    tempora tenetur commodi excepturi enim impedit magnam assumenda quaerat, iusto itaque magni omnis
+                    corrupti? Assumenda, natus eos!</p>
 
 
+                <p class="col-12 col-sm-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
+                    vel quod placeat, hic
+                    tempora tenetur commodi excepturi enim impedit magnam assumenda quaerat, iusto itaque magni omnis
+                    corrupti? Assumenda, natus eos!</p>
+            </div>
+
+            <div
+                class="row flex-wrap flex-sm-wrap flex-md-nowrap justify-content-between align-items-center margin-john">
+
+                <p class="padding-services col-12 col-sm-12 col-md-6 mb-5 mb-sm-5 mb-md-0 mr-0 mr-sm-0 mr-md-3">Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Neque, vel quod placeat, hic
+                    tempora tenetur commodi excepturi enim impedit magnam assumenda quaerat, iusto itaque magni omnis
+                    corrupti? Assumenda, natus eos!</p>
+
+                <div class="col-12 col-sm-12 col-md-6 icon-bar">
+
+                    <div class="icon-items">
+                        <img src="twitter.png" alt="twitter">
+                    </div>
+
+                    <div class="icon-items">
+                        <img src="googleplus.png" alt="googleplus">
+                    </div>
+
+                    <div class="icon-items">
+                        <img src="dribble.png" alt="dribble">
+                    </div>
+
+                    <div class="icon-items">
+                        <img src="coffee-icon.png" alt="coffee-icon">
+                    </div>
+
+                </div>
+            </div>
         </div>
-
-
-
-
     </section>
 
     <section class="testimonials">
 
         <div class="container">
 
-            <div class="row">
+            <div class="padding-portfolio row justify-content-between align-items-center">
 
-                <div class="container-testimonials">
+                <h2 class="border-default-section-test">TESTIMONIALS</h2>
 
-                    <div class="title-testimonials">
-
-                        <h2 class="border-default-section-test">TESTIMONIALS</h2>
-
-                        <img class="img-testimonials" src="testimonials.png" alt="testimonials">
-
-                    </div>
-
-                    <div class="text-testimonials">
-
-                        <p>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon
-                            cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet jelly-o.</p>
-
-                    </div>
-
-                    <div class="walter">
-
-                        <p>-Walter White</p>
-
-                    </div>
-
-
-
-
-                </div>
-
-
+                <img class="img-testimonials" src="testimonials.png" alt="testimonials">
 
             </div>
 
+            <div class="padding-portfolio row margin-test">
+
+                <p class="text-testimonials">Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow
+                    wafer macaroon
+                    cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet jelly-o.</p>
+
+            </div>
+
+            <div class="padding-portfolio row margin-testi">
+                <p>-Walter White</p>
+            </div>
         </div>
 
     </section>
@@ -371,75 +324,74 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="padding-portfolio row">
 
-                <div class="container-contact">
+                <h2 class="border-default-section">CONTACT</h2>
 
-                    <div class="title-contact">
+            </div>
 
-                        <h2 class="border-default-section">CONTACT</h2>
+            <form action="#" method="post" id="form" name="form">
+
+                <div class="row margin-contact">
+
+                    <div class="padding-services col-12 col-sm-12 col-md-12 col-lg-6 d-flex flex-column">
+
+                        <label class="label">FULL NAME</label>
+
+                        <input class="fullname-text" type="text" id="name" name="name" required />
 
                     </div>
 
-                    <form action="#" method="post" id="form" name="form">
 
-                        <div class="line1">
-
-                            <div class="fullname">
-
-                                <label class="label">FULL NAME</label>
-
-                                <input class="fullname-text" type="text" id="name" name="name" required />
-
-                                
-                                
-
-                            </div>
-
-                            <p class="space-contact">Jujubes bear claw croissant wafer sweet lemon drops brownie
-                                chocolate
-                                bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar
-                                gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
-
-                        </div>
-
-                        <div class="line2">
-
-                            <div class="fullname">
-
-                                <label class="label">EMAIL</label>
-
-                                <input class="fullname-text" type="email" id="email" name="email" required />
-
-                            </div>
-
-                            <p class="space-contact">Linda Newman<br /> W325 State Road 123<br /> Mondovi, WI(Wisconsin)
-                                98746-54321<br /> (715) 946 - 1234</p>
-
-                        </div>
-
-
-                        <div class="line3">
-
-                            <div class="fullname">
-
-                                <label class="label">MESSAGE</label>
-
-                                <input class="fullname-message" type="text" id="message" name="message" required />
-
-                            </div>
-
-                        </div>
-
-                        <div class="line4">
-
-                            <input class="message-button" type="submit" id="btn" name="btn" value="MESSAGE"/>
-
-                        </div>
-                    </form>
+                    <div class="col-6 d-none d-sm-none d-md-none d-lg-block">
+                        <p class="space-contact">Jujubes bear claw croissant wafer sweet lemon drops brownie
+                            chocolate
+                            bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar
+                            gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+                    </div>
 
                 </div>
-            </div>
+
+                <div class="row margin-contact">
+
+                    <div class="padding-services col-12 col-sm-12 col-md-12 col-lg-6 d-flex flex-column">
+
+
+                        <label class="label">EMAIL</label>
+
+                        <input class="fullname-text" type="email" id="email" name="email" required />
+
+                    </div>
+
+                    <div class="col-6 d-none d-sm-none d-md-none d-lg-block">
+                        <p class="space-contact">Linda Newman<br /> W325 State Road 123<br /> Mondovi, WI(Wisconsin)
+                            98746-54321<br /> (715) 946 - 1234</p>
+                    </div>
+
+                </div>
+
+                <div class="row padding-portfolio margin-contact">
+
+                    <div class="fullname">
+
+                        <label class="label">MESSAGE</label>
+
+                        <input class="fullname-message" type="text" id="message" name="message" required />
+
+                    </div>
+
+                </div>
+
+                <div class="row padding-portfolio">
+
+                    <input class="message-button" type="submit" id="btn" name="btn" value="MESSAGE" />
+
+                </div>
+                </div>
+            </form>
+
+        </div>
+        </div>
 
 
         </div>
@@ -448,27 +400,26 @@
 
     <footer class="footer">
 
-        <div class="container">
+        <div class="container padding-contact">
 
-            <div class="row">
-
-                <div class="container-footer">
-
-                    <nav class="navbar-footer">
+            <div class="row d-flex justify-content-center justify-content-sm-center justify-content-md-between align-items-center">
 
                         <ul class="nav-footer">
 
-                            <li class="nav-items-footer"><a class="nav-link-footer without-padding" href="#header">HOME &nbsp;
-                                    &nbsp; |</a></li>
-                            <li class="nav-items-footer"><a class="nav-link-footer" href="#services">SERVICES &nbsp; &nbsp;
-                                    |</a></li>
-                            <li class="nav-items-footer"><a class="nav-link-footer" href="#portfolio">PORTFOLIO &nbsp; &nbsp;
-                                    |</a></li>
+                            <li class="nav-items-footer"><a class="nav-link-footer without-padding" href="#header">HOME
+                                    &nbsp;
+                                    &nbsp; <span>|</span></a></li>
+                            <li class="nav-items-footer"><a class="nav-link-footer" href="#services">SERVICES &nbsp;
+                                    &nbsp;
+                                    <span>|</span></a></li>
+                            <li class="nav-items-footer"><a class="nav-link-footer" href="#portfolio">PORTFOLIO &nbsp;
+                                    &nbsp;
+                                    <span>|</span></a></li>
                             <li class="nav-items-footer"><a class="nav-link-footer" href="#contact">CONTACT</a></li>
 
                         </ul>
 
-                        <p>&copy; 2013</p>
+                        <p class="d-none d-sm-none d-md-block">&copy; 2013</p>
 
                     </nav>
 
@@ -484,6 +435,15 @@
 
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
